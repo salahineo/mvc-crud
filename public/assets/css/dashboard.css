@@ -254,6 +254,11 @@ div.table-responsive > div.dataTables_wrapper > div.row {
   margin-top: 10px;
 }
 
+div.table-responsive > div.dataTables_wrapper div.row:first-of-type,
+div.table-responsive > div.dataTables_wrapper div.row:last-of-type {
+  align-items: baseline;
+}
+
 div.dataTables_wrapper div.dataTables_paginate,
 div.dataTables_wrapper div.dataTables_info {
   margin-top: 0.5rem;

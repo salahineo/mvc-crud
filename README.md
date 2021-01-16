@@ -1,4 +1,4 @@
-<h1 align="center">PHP OOP CRUD Application</h1>
+<h1 align="center">MVC CRUD Application</h1>
 
 <p align="center">
 <img src="Mockup.png" alt="Responsive Mockup">
@@ -15,8 +15,8 @@
 
 ### Goal
 
-This is a CRUD application. I coded this project to practice on my knowledge HTML, CSS, Bootstrap, PHP (OOP), MySQL in a
-real project.
+This is MVC CRUD application. I coded this project to practice on my knowledge HTML, CSS, Bootstrap, jQuery, PHP (OOP),
+MySQL in a real project.
 
 ### Benefits
 
@@ -34,22 +34,23 @@ Here are some ideas to benefit from this project:
 Here are the guidelines to run this project on your localhost:
 
 1. Download, then install [XAMPP](https://www.apachefriends.org/download.html) web server
-2. Download this project, then rename its folder to `crud-oop`
-3. Copy the `crud-oop` folder to the `htdocs` folder which exists in XAMPP installation path
+2. Download this project, then rename its folder to `mvc-crud`
+3. Copy the `mvc-crud` folder to the `htdocs` folder which exists in XAMPP installation path
 4. Start XAMPP control panel from your Desktop, then start `Apache` web server, and `MySQL` server
 5. Open your browser, and type `http://localhost/phpmyadmin`, to open PHPMyAdmin home page
 6. Create a new database with the name `employees`
-7. Import the `employees.sql` file to this database (This file located in `sql` folder which exist in the `crud-oop`
+7. Import the `employees.sql` file to this database (This file located in `sql` folder which exist in the `mvc-crud`
    folder)
-5. Open your browser, and type `http://localhost/crud-oop`, to open the main page of the website
+5. Open your browser, and type `http://localhost/mvc-crud`, to open the main page of the website
 
-> It's preferable to make a virtual host for this project, because you may encounter non-accurate routes after delete & update operations
+> You must make a virtual host like `mvc.local` for this project
 
 ### Technologies
 
 - HTML
 - CSS
 - Bootstrap
+- jQuery
 - PHP (OOP)
 - MySQL
 
