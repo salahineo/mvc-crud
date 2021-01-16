@@ -1,7 +1,7 @@
 <h1 align="center">MVC CRUD Application</h1>
 
 <p align="center">
-<img src="Mockup.png" alt="Responsive Mockup">
+<img src="Mockup.jpg" alt="Responsive Mockup">
 </p>
 
 ## Table of Contents
