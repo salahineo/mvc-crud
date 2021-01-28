@@ -34,16 +34,17 @@ Here are some ideas to benefit from this project:
 Here are the guidelines to run this project on your localhost:
 
 1. Download, then install [XAMPP](https://www.apachefriends.org/download.html) web server
-2. Download this project, then rename its folder to `mvc-crud`
-3. Copy the `mvc-crud` folder to the `htdocs` folder which exists in XAMPP installation path
+2. Download this project, then rename its directory to `mvc-crud`
+3. Copy the `mvc-crud` directory to the `htdocs` directory which exists in XAMPP installation path
 4. Start XAMPP control panel from your Desktop, then start `Apache` web server, and `MySQL` server
 5. Open your browser, and type `http://localhost/phpmyadmin`, to open PHPMyAdmin home page
-6. Create a new database with the name `employees`
-7. Import the `employees.sql` file to this database (This file located in `sql` folder which exist in the `mvc-crud`
-   folder)
-5. Open your browser, and type `http://localhost/mvc-crud`, to open the main page of the website
+6. Create a new database with the name `s_mvc_crud`
+7. Import the `s_mvc_crud.sql` file to this database (This file located in `sql` directory)
+8. Open your browser, and type `http://localhost/mvc-crud`, to open the home page of the website
 
-> You must make a virtual host like `mvc.local` for this project
+> You must make a virtual host like `mvc-crud.local` for this project, otherwise you will encounter non-accurate routes. If you don't know how to make virtual hosts in XAMPP, then it is the time to search ^_^
+
+> Don't forget to edit the `/app/config.php` file with your Database credentials
 
 ### Technologies
 
@@ -54,7 +55,7 @@ Here are the guidelines to run this project on your localhost:
 - PHP (OOP)
 - MySQL
 
-> This project is fully responsive
+> This application is fully responsive
 
 ### Contact
 
@@ -72,8 +73,7 @@ Here are the guidelines to run this project on your localhost:
 
 ---
 
-**If you find my work good, consider giving it a :star: or fork-ing to show some :heart:. It helps me stay on track and
-be motivated.**
+**If you find my work good, consider giving it a :star: or fork-ing to show some :heart:. It helps me stay on track and be motivated.**
 
 > **Explore all of my projects from [Here](https://github.com/salahineo/Projects-Reference)**
 

@@ -11,7 +11,7 @@ define('LANGUAGES', APP . DS . 'languages');
 define('DATABASE_HOST_NAME', 'localhost');
 define('DATABASE_USER_NAME', 'root');
 define('DATABASE_PASSWORD', 'admin');
-define('DATABASE_DB_NAME', 'employees');
+define('DATABASE_DB_NAME', 's_mvc_crud');
 define('DATABASE_OPTIONS', [PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES UTF8']);
 
 // Languages
