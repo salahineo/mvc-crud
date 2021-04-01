@@ -22,7 +22,7 @@
   <!-- End CSS -->
 
   <!-- Start favicon -->
-  <link rel="icon" type="image/png" href="/assets/img/favicon/favicon.png">
+  <link rel="icon" href="/assets/img/favicon/favicon.ico">
   <!-- End favicon -->
 
   <!-- Start Fonts -->
